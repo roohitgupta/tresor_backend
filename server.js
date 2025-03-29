@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 8800;
 
 
 const corsOptions = {
-  origin: 'http://localhost:3000',
+  origin: 'tresor-commerce.netlify.app',
   methods: ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS'],
   allowedHeaders: ['Content-Type', 'Authorization'],
   credentials: true
